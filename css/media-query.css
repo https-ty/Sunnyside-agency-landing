@@ -121,12 +121,12 @@
     background-color: var(--yellow-100);
   }
 
-  .hamburger{
+  .hamburger {
     display: block;
   }
 
   .hamburger,
-  .hamburger-close{
+  .hamburger-close {
     opacity: 1;
     visibility: visible;
   }
@@ -244,8 +244,8 @@
 
 @media screen and (max-width: 425px) {
   /*Home section*/
-  .home {
-    background-image: url(/images/mobile/image-header.jpg);
+  .home .home-container {
+    background-image: url("../images/mobile/image-header.jpg");
     height: 100%;
   }
 

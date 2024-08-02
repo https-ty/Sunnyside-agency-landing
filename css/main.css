@@ -48,7 +48,8 @@ header .contact-btn:hover {
 }
 
 /*Hamburger*/
-.hamburger, .hamburger-close{
+.hamburger,
+.hamburger-close {
   position: absolute;
   top: 30%;
   right: 5%;
@@ -60,7 +61,7 @@ header .contact-btn:hover {
   transition: opacity 0.5s ease, visibility 0.3s ease-in-out;
 }
 
-.hamburger-close{
+.hamburger-close {
   display: none;
   color: var(--white-100);
   font-size: 1.4rem;
@@ -73,9 +74,9 @@ header .contact-btn:hover {
 
 /*Main*/
 
-.home { /*section - header*/
+.home .home-container {
   position: relative;
-  background-image: url('../images/desktop/image-header.jpg');
+  background-image: url("../images/desktop/image-header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +85,6 @@ header .contact-btn:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .home .home-header {
@@ -255,11 +255,11 @@ header .contact-btn:hover {
   margin-bottom: 35px;
 }
 
-.column .col-container-3 .left-description h1{
+.column .col-container-3 .left-description h1 {
   color: var(--blue-200);
 }
 
-.column .col-container-3 .right-description h1{
+.column .col-container-3 .right-description h1 {
   color: var(--blue-300);
 }
 
@@ -272,11 +272,11 @@ header .contact-btn:hover {
   line-height: 1.8rem;
 }
 
-.column .col-container-3 .left-description p{
+.column .col-container-3 .left-description p {
   color: var(--blue-100);
 }
 
-.column .col-container-3 .right-description p{
+.column .col-container-3 .right-description p {
   color: var(--blue-300);
 }
 /*End Container-3*/
@@ -331,7 +331,7 @@ header .contact-btn:hover {
   color: var(--gray-200);
   font-size: 1.125rem;
   line-height: 1.8rem;
-  flex: 1; 
+  flex: 1;
 }
 
 .testimonials .t-container .t-description h2 {
@@ -431,12 +431,12 @@ footer .footer-container .footer-socials img {
 /*End Footer*/
 
 /*Attribution*/
-.attribution{
+.attribution {
   font-style: italic;
   font-family: var(--font-barlow);
   font-size: 0.875rem;
   color: var(--blue-100);
-  text-align: center; 
+  text-align: center;
   margin-top: 20px;
   font-weight: 500;
 }
