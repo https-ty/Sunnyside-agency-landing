@@ -75,8 +75,7 @@ header .contact-btn:hover {
 
 .home {
   position: relative;
-  /* background-image: url('../images/desktop/image-header.jpg'); */
-  background-color: red;
+  background-image: url('../images/desktop/image-header.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,6 +84,7 @@ header .contact-btn:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999;
 }
 
 .home .home-header {
