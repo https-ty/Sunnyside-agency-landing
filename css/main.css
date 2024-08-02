@@ -75,7 +75,8 @@ header .contact-btn:hover {
 
 .home {
   position: relative;
-  background-image: url('../images/desktop/image-header.jpg');
+  /* background-image: url('../images/desktop/image-header.jpg'); */
+  background-color: red;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
