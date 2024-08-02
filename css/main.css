@@ -50,6 +50,7 @@ header .contact-btn:hover {
 /*Hamburger*/
 .hamburger, .hamburger-close{
   position: absolute;
+  top: 30%;
   right: 5%;
   display: none;
   cursor: pointer;
