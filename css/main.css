@@ -4,26 +4,12 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid red; */
   z-index: 1;
   padding: 40px 50px;
 }
-
-/* Spike Effect */
-/* header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-bottom: 30px solid var(--white-100);
-} */
 
 header .logo {
   width: 190px;
@@ -31,7 +17,6 @@ header .logo {
 }
 
 .header .navbar {
-  /* position: relative; */
   display: flex;
   align-items: center;
 }
@@ -90,7 +75,6 @@ header .contact-btn:hover {
 }
 
 .home .home-header {
-  /* border: 2px solid red; */
   text-align: center;
   margin-bottom: 120px;
   max-width: 100%;
@@ -103,7 +87,6 @@ header .contact-btn:hover {
   font-size: 3.8rem;
   color: var(--white-100);
   font-weight: 900;
-  /* border: 2px solid yellow; */
 
   padding: 0 10px;
   margin: 0 auto;
@@ -248,7 +231,6 @@ header .contact-btn:hover {
   bottom: 50px;
   width: 100%;
   text-align: center;
-  /* border: 2px solid red; */
   padding: 0 220px;
 }
 
@@ -293,11 +275,9 @@ header .contact-btn:hover {
   text-align: center;
   background-color: var(--white-100);
   padding: 200px 0;
-  /* border: 2px solid pink; */
 }
 
 .testimonials h1 {
-  /* margin: 100px 100px 80px 100px; */
   margin-bottom: 80px;
   font-family: var(--font-fraunces);
   text-transform: uppercase;
@@ -312,8 +292,6 @@ header .contact-btn:hover {
   align-items: center;
   padding: 0 100px;
   flex-wrap: wrap;
-  /* gap: 20px; */
-  /* border: 2px solid red; */
   height: 400px;
 }
 
@@ -322,9 +300,7 @@ header .contact-btn:hover {
   flex-direction: column;
   align-items: center;
   flex: 1;
-  /* margin-left: 40px; */
   padding: 0 20px;
-  /* border: 2px solid blue; */
   height: 100%;
 }
 
@@ -342,7 +318,6 @@ header .contact-btn:hover {
   color: var(--gray-200);
   font-size: 1.125rem;
   line-height: 1.8rem;
-  /* margin-bottom: 80px; */
   flex: 1; 
 }
 
@@ -364,11 +339,6 @@ header .contact-btn:hover {
 /*End Client Testimonials*/
 
 /*Gallery*/
-/* .gallery{
-    border: 2px solid red;
-    overflow: hidden;
-} */
-
 .gallery .g-container {
   display: flex;
   justify-content: center;
@@ -378,9 +348,6 @@ header .contact-btn:hover {
 }
 
 .gallery .g-container img {
-  /* flex: 1;
-    width: 20%;
-    height: auto; */
   flex: 1 1 25%;
   width: 25%;
   height: auto;
@@ -393,9 +360,7 @@ header .contact-btn:hover {
 footer {
   background-color: rgba(145, 213, 197, 255);
   text-align: center;
-  /* padding: 80px 660px; */
   padding: 40px 20px;
-  /* border: 2px solid red; */
 }
 
 footer .logo {
@@ -404,7 +369,6 @@ footer .logo {
 }
 
 footer .footer-container {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -415,7 +379,6 @@ footer .footer-container .navbar-footer {
   justify-content: center;
   align-items: center;
   gap: 80px;
-  /* border: 2px solid red; */
 }
 
 footer .footer-container .navbar-footer a {
@@ -472,7 +435,6 @@ footer .footer-container .footer-socials img {
 
 .attribution a:hover {
   text-decoration: underline;
-  /* color: var(--white-100); */
   transition: text-decoration-color 0.3s ease;
 }
 /*End Attribution*/

@@ -26,11 +26,8 @@
     --white-100: hsl(0, 0%, 100%);
 
     --contact-btn-hover: rgba(110, 206, 255, 1);
-    /*Colors*/
-
-        /* font-family: "Fraunces", serif; */
-    /* font-family: "Barlow", sans-serif; */
-
+    
+    /*Fonts*/
     --font-fraunces: "Fraunces", serif;
     --font-barlow: "Barlow", sans-serif;
 

@@ -1,31 +1,9 @@
-// function toggleMenu() {
-//     const navbar = document.querySelector('.navbar');
-//     navbar.classList.toggle('active');
-//   }
-
-// document.querySelector('.hamburger').addEventListener('click', function() {
-//   const navbar = document.querySelector('header .navbar');
-//   navbar.classList.toggle('active');
-//   navbar.classList.toggle('inactive'); // Add/remove inactive class to sync the spike effect
-// });
-
-// // Optional: to ensure spike effect hides after the navbar closes
-// document.querySelector('header .navbar').addEventListener('transitionend', function(event) {
-//   if (event.propertyName === 'opacity' && !this.classList.contains('active')) {
-//     this.classList.add('inactive');
-//   }
-// });
-
-// document.querySelector('.hamburger').addEventListener('click', function() {
-//     const navbar = document.querySelector('header .navbar');
-//     navbar.classList.toggle('active');
-//   });
-
 //Toggle Hamburger
 document.querySelector(".hamburger").addEventListener("click", function () {
   const navbar = document.querySelector("header .navbar");
   navbar.classList.toggle("active");
 });
+//
 
 //Desktop to Mobile Img switching
 function updateImages() {
@@ -69,4 +47,4 @@ function updateImages() {
 window.onload = updateImages;
 
 window.onresize = updateImages;
-//Desktop to Mobile Img switching
+//
