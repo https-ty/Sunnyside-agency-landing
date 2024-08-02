@@ -19,90 +19,122 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/boilerplate.css" />
     <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+    <link rel="stylesheet" href="css/animation.css" />
     <!--css links-->
   </head>
 
-  <header>
-    <!-- <a href="#" class="logo"><h1>sunnyside</h1></a> -->
-     <a href="#"><img src="images/logo.svg" class="logo" alt=""></a>
+  <body>
+    <header>
+      <!--Hamburger-->
+      <img
+        src="images/icon-hamburger.svg"
+        alt=""
+        class="hamburger"
+        onclick="toggleMenu()"
+      />
+      <!--End Hamburger-->
 
-    <nav class="navbar">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Projects</a>
-      <button class="contact-btn">CONTACT</button>
-    </nav>
-  </header>
+      <!-- <a href="#" class="logo"><h1>sunnyside</h1></a> -->
+      <a href="#"><img src="images/logo.svg" class="logo" alt="" /></a>
 
-  <main>
-    <!--Home-->
-    <section class="home">
-      <div class="home-header">
-        <h1>WE ARE CREATIVES</h1>
-        <img src="images/icon-arrow-down.svg" alt="#">
-      </div>
-    </section>
-    <!--End Home-->
+      <nav class="navbar">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <button class="contact-btn">CONTACT</button>
+      </nav>
+    </header>
 
-    <!--Column-->
-    <section class="column">
-      <div class="col-container">
-        <div class="col-left">
-          <div class="description">
-            <h1>Transform your<br>brand</h1>
-            <p> We are a full-service creative agency specializing in helping brands grow fast. 
-              Engage your clients through compelling visuals that do most of the marketing for you.
-            </p>
-            <button class="learnmore-btn">Learn more</button>
+    <main>
+      <!--Home-->
+      <section class="home">
+        <div class="home-header">
+          <h1>WE ARE CREATIVES</h1>
+          <img src="images/icon-arrow-down.svg" alt="#" />
+        </div>
+      </section>
+      <!--End Home-->
+
+      <!--Column-->
+      <section class="column">
+        <div class="col-container">
+          <div class="col-left">
+            <div class="description">
+              <h1>Transform your<br class="remove-br" />brand</h1>
+              <p>
+                We are a full-service creative agency specializing in helping
+                brands grow fast. Engage your clients through compelling visuals
+                that do most of the marketing for you.
+              </p>
+              <button class="learnmore-btn">Learn more</button>
+            </div>
+          </div>
+          <div class="col-right">
+            <!-- <img src="images/desktop/image-transform.jpg" alt=""> -->
+            <img id="image-transform" src="images/desktop/image-transform.jpg" alt="" />
           </div>
         </div>
-        <div class="col-right">
-          <img src="images/desktop/image-transform.jpg" alt="">
-        </div>
-      </div>
 
-      <div class="col-container">
-        <div class="col-left">
-          <img src="images/desktop/image-stand-out.jpg" alt="">
-        </div>
-        <div class="col-right">
-          <div class="description">
-            <h1>Stand out to the right<br>audience</h1>
-            <p> Using a collaborative formula of designers, researchers, photographers, 
-              videographers, and copywriters, we’ll build and extend your brand in digital places.
-            </p>
-            <button class="learnmore-btn">Learn more</button>
+        <div class="col-container-2">
+          <div class="col-left">
+            <!-- <img src="images/desktop/image-stand-out.jpg" alt=""> -->
+            <img id="image-stand-out" src="images/desktop/image-stand-out.jpg" alt="" />
+          </div>
+          <div class="col-right">
+            <div class="description">
+              <h1>
+                Stand out to the right<br class="remove-br" />
+                audience
+              </h1>
+              <p>
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we’ll build and
+                extend your brand in digital places.
+              </p>
+              <button class="learnmore-btn">Learn more</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-container">
-        <div class="col-left">
-          <img src="images/desktop/image-graphic-design.jpg" alt="#">
+        <div class="col-container-3">
+          <div class="col-left">
+            <img
+              id="graphic-design-img"
+              src="images/desktop/image-graphic-design.jpg"
+              alt=""
+            />
 
-          <div class="left-description">
-            <h1>Graphic Design</h1>
-            <p>Great design makes you memorable. We deliver artwork that underscores your brand 
-              message and captures potential clients’ attention.
-            </p>
+            <div class="left-description">
+              <h1>Graphic Design</h1>
+              <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+          <div class="col-right">
+            <img
+              id="photography-img"
+              src="images/desktop/image-photography.jpg"
+              alt=""
+            />
+
+            <div class="right-description">
+              <h1>Photography</h1>
+              <p>
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-right">
-          <img src="images/desktop/image-photography.jpg" alt="#">
+      </section>
+      <!--End Column-->
 
-          <div class="right-description">
-            <h1>Photography</h1>
-            <p>Increase your credibility by getting the most stunning, high-quality photos 
-              that improve your business image.
-            </p>
-          </div>
-          </div>
-        </div>
-    </section>
-    <!--End Column-->
-
-    <!--Testimonials-->
-    <section class="testimonials">
+      <!--Testimonials-->
+      <section class="testimonials">
       <h1>Client Testimonials</h1>
       <div class="t-container">
 
@@ -129,22 +161,22 @@
 
       </div>
     </section>
-    <!--End Testimonials-->
+      <!--End Testimonials-->
 
-    <!--Gallery-->
-    <section class="gallery">
+      <!--Gallery-->
+      <section class="gallery">
       <div class="g-container">
-        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
-        <img src="images/desktop/image-gallery-orange.jpg" alt="">
-        <img src="images/desktop/image-gallery-cone.jpg" alt="">
-        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+        <img id="image-gallery-milkbottles" src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+        <img id="image-gallery-orange" src="images/desktop/image-gallery-orange.jpg" alt="">
+        <img id="image-gallery-cone" src="images/desktop/image-gallery-cone.jpg" alt="">
+        <img id="image-gallery-sugar-cubes" src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+
       </div>
     </section>
-    <!--End Gallery-->
+      <!--End Gallery-->
+    </main>
 
-  </main>
-  
-  <footer>
+    <footer>
     <img src="images/logo-green.png" class="logo" alt="">
     <div class="footer-container">
       <div class="navbar-footer">
@@ -159,8 +191,13 @@
         <a href=""><img src="images/icon-pinterest.svg" alt="" class="socials-logo"></a>
       </div>
     </div>
-  </footer>
-  
-  <script src="js/main.js"></script>
 
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/https-ty" target="_blank">Tyler.dev</a>
+    </div>
+  </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
