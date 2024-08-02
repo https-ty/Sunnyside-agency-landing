@@ -1,8 +1,48 @@
 //Toggle Hamburger
-document.querySelector(".hamburger").addEventListener("click", function () {
+// document.querySelector(".hamburger").addEventListener("click", function () {
+//   const navbar = document.querySelector("header .navbar");
+//   navbar.classList.toggle("active");
+// });
+
+// function toggleMenu() {
+//   const hamburger = document.querySelector(".hamburger");
+//   const hamburgerClose = document.querySelector(".hamburger-close");
+//   const navbar = document.querySelector("header .navbar");
+
+//   // Toggle the navbar active class
+//   navbar.classList.toggle("active");
+
+//   // Toggle the visibility of the hamburger and close icons
+//   if (navbar.classList.contains("active")) {
+//     hamburger.style.display = "none";
+//     hamburgerClose.style.display = "block";
+//   } else {
+//     hamburger.style.display = "block";
+//     hamburgerClose.style.display = "none";
+//   }
+// }
+
+function toggleMenu() {
+  const hamburger = document.querySelector(".hamburger");
+  const hamburgerClose = document.querySelector(".hamburger-close");
   const navbar = document.querySelector("header .navbar");
+
+  // Toggle the navbar active class
   navbar.classList.toggle("active");
-});
+
+  // Toggle the visibility of the hamburger and close icons
+  if (navbar.classList.contains("active")) {
+    hamburger.style.display = "none";
+    hamburgerClose.style.display = "block";
+  } else {
+    hamburger.style.display = "block";
+    hamburgerClose.style.display = "none";
+  }
+}
+
+
+
+
 //
 
 //Desktop to Mobile Img switching

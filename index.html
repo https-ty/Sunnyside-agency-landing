@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Font awesome CDN -->
+
     <!--Fav Icon-->
     <link
       rel="icon"
@@ -32,6 +39,8 @@
         class="hamburger"
         onclick="toggleMenu()"
       />
+
+      <i class="fa-solid fa-x hamburger-close" onclick="toggleMenu()"></i>
       <!--End Hamburger-->
 
       <!-- <a href="#" class="logo"><h1>sunnyside</h1></a> -->
@@ -70,13 +79,21 @@
             </div>
           </div>
           <div class="col-right">
-            <img id="image-transform" src="images/desktop/image-transform.jpg" alt="Egg Image" />
+            <img
+              id="image-transform"
+              src="images/desktop/image-transform.jpg"
+              alt="Egg Image"
+            />
           </div>
         </div>
 
         <div class="col-container-2">
           <div class="col-left">
-            <img id="image-stand-out" src="images/desktop/image-stand-out.jpg" alt="Cup Image" />
+            <img
+              id="image-stand-out"
+              src="images/desktop/image-stand-out.jpg"
+              alt="Cup Image"
+            />
           </div>
           <div class="col-right">
             <div class="description">
@@ -132,68 +149,113 @@
 
       <!--Testimonials-->
       <section class="testimonials">
-      <h1>Client Testimonials</h1>
-      <div class="t-container">
+        <h1>Client Testimonials</h1>
+        <div class="t-container">
+          <div class="t-description">
+            <img src="images/image-emily.jpg" alt="Client Image" />
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h2>Emily R.</h2>
+            <h3>Marketing Director</h3>
+          </div>
 
-        <div class="t-description">
-          <img src="images/image-emily.jpg" alt="Client Image">
-          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-          <h2>Emily R.</h2>
-          <h3>Marketing Director</h3>
+          <div class="t-description">
+            <img src="images/image-thomas.jpg" alt="Client Image" />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h2>Thomas S.</h2>
+            <h3>Chief Operating Officer</h3>
+          </div>
+
+          <div class="t-description">
+            <img src="images/image-jennie.jpg" alt="Client Image" />
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h2>Jennie F.</h2>
+            <h3>Business Owner</h3>
+          </div>
         </div>
-
-        <div class="t-description">
-          <img src="images/image-thomas.jpg" alt="Client Image">
-          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-          <h2>Thomas S.</h2>
-          <h3>Chief Operating Officer</h3>
-        </div>
-
-        <div class="t-description">
-          <img src="images/image-jennie.jpg" alt="Client Image">
-          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-          <h2>Jennie F.</h2>
-          <h3>Business Owner</h3>
-        </div>
-
-      </div>
-    </section>
+      </section>
       <!--End Testimonials-->
 
       <!--Gallery-->
       <section class="gallery">
-      <div class="g-container">
-        <img id="image-gallery-milkbottles" src="images/desktop/image-gallery-milkbottles.jpg" alt="Milkbottles image">
-        <img id="image-gallery-orange" src="images/desktop/image-gallery-orange.jpg" alt="Orange image">
-        <img id="image-gallery-cone" src="images/desktop/image-gallery-cone.jpg" alt="Cone image">
-        <img id="image-gallery-sugar-cubes" src="images/desktop/image-gallery-sugarcubes.jpg" alt="Sugarcubes image">
-
-      </div>
-    </section>
+        <div class="g-container">
+          <img
+            id="image-gallery-milkbottles"
+            src="images/desktop/image-gallery-milkbottles.jpg"
+            alt="Milkbottles image"
+          />
+          <img
+            id="image-gallery-orange"
+            src="images/desktop/image-gallery-orange.jpg"
+            alt="Orange image"
+          />
+          <img
+            id="image-gallery-cone"
+            src="images/desktop/image-gallery-cone.jpg"
+            alt="Cone image"
+          />
+          <img
+            id="image-gallery-sugar-cubes"
+            src="images/desktop/image-gallery-sugarcubes.jpg"
+            alt="Sugarcubes image"
+          />
+        </div>
+      </section>
       <!--End Gallery-->
     </main>
 
     <footer>
-    <img src="images/logo-green.png" class="logo" alt="">
-    <div class="footer-container">
-      <div class="navbar-footer">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
+      <img src="images/logo-green.png" class="logo" alt="" />
+      <div class="footer-container">
+        <div class="navbar-footer">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+        </div>
+        <div class="footer-socials">
+          <a href=""
+            ><img
+              src="images/icon-facebook.svg"
+              alt="Facebook Logo"
+              class="socials-logo"
+          /></a>
+          <a href=""
+            ><img
+              src="images/icon-instagram.svg"
+              alt="Instagram Logo"
+              class="socials-logo"
+          /></a>
+          <a href=""
+            ><img
+              src="images/icon-twitter.svg"
+              alt="Twitter Logo"
+              class="socials-logo"
+          /></a>
+          <a href=""
+            ><img
+              src="images/icon-pinterest.svg"
+              alt="Pinterest Logo"
+              class="socials-logo"
+          /></a>
+        </div>
       </div>
-      <div class="footer-socials">
-        <a href=""><img src="images/icon-facebook.svg" alt="Facebook Logo" class="socials-logo"></a>
-        <a href=""><img src="images/icon-instagram.svg" alt="Instagram Logo" class="socials-logo"></a>
-        <a href=""><img src="images/icon-twitter.svg" alt="Twitter Logo" class="socials-logo"></a>
-        <a href=""><img src="images/icon-pinterest.svg" alt="Pinterest Logo" class="socials-logo"></a>
-      </div>
-    </div>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/https-ty" target="_blank">Tyler.dev</a>
-    </div>
-  </footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/https-ty" target="_blank">Tyler.dev</a>
+      </div>
+    </footer>
 
     <script src="js/main.js"></script>
   </body>

@@ -48,11 +48,22 @@ header .contact-btn:hover {
 }
 
 /*Hamburger*/
-.hamburger {
+.hamburger, .hamburger-close{
   position: absolute;
   right: 5%;
   display: none;
   cursor: pointer;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.3s ease-in-out;
+}
+
+.hamburger-close{
+  display: none;
+  color: var(--white-100);
+  font-size: 1.4rem;
+  font-weight: 100;
 }
 
 /*End Hamburger*/

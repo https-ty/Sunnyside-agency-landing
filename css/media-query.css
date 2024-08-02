@@ -121,8 +121,14 @@
     background-color: var(--yellow-100);
   }
 
-  .hamburger {
+  .hamburger{
     display: block;
+  }
+
+  .hamburger,
+  .hamburger-close{
+    opacity: 1;
+    visibility: visible;
   }
 
   /* Spike Effect */
