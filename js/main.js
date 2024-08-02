@@ -41,8 +41,6 @@ function toggleMenu() {
 }
 
 
-
-
 //
 
 //Desktop to Mobile Img switching
@@ -71,6 +69,7 @@ function updateImages() {
     imageGalleryOrangeImg.src = "images/mobile/image-gallery-orange.jpg";
     imageGalleryConeImg.src = "images/mobile/image-gallery-cone.jpg";
     imageGallerySugarcubesImg.src = "images/mobile/image-gallery-sugar-cubes.jpg";
+    
   } else {
     graphicDesignImg.src = "images/desktop/image-graphic-design.jpg";
     photographyImg.src = "images/desktop/image-photography.jpg";
